@@ -39,9 +39,9 @@ This repository contains a Python bot that allows users to create simple custom 
     `color`: A hexadecimal color code for the embed.
 
 #### Screenshots
-![1](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_using_view.jpg)
-![2](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_preview.jpg)
-![3](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_send.jpg)
+[![1](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_using_view.jpg)](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_using_view.jpg){:target="_blank"}
+[![2](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_preview.jpg)](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_preview.jpg){:target="_blank"}
+[![3](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_send.jpg)](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_send.jpg){:target="_blank"}
 
 #### Contributing
 Free to contribute to this project.
