@@ -21,7 +21,7 @@ def setup(bot: commands.InteractionBot):
 
 
 def get_create_embed_options():
-    option_data = (
+    option_data = [
         ("author_icon", "URL", False),
         ("author_name", "TEXT", False),
         ("author_hyperlink", "URL", False),
@@ -34,9 +34,9 @@ def get_create_embed_options():
         ("footer_text", "TEXT", False),
         ("timestamp", "DEFAULT FALSE", False),
         ("color", "HEX", False),
-    )
+    ]
 
-    return (
+    return [
         disnake.Option(
             type=disnake.OptionType.boolean
             if name == "timestamp"
@@ -46,7 +46,7 @@ def get_create_embed_options():
             required=req,
         )
         for name, desc, req in option_data
-    )
+    ]
 
 
 def validate_embed_lengths(author_name, title, description, footer_text):
@@ -147,7 +147,7 @@ async def set_footer(embed, footer_text=None, footer_icon=None):
 
 async def set_timestamp(embed, timestamp=False):
     if timestamp and not any(
-        (
+        [
             embed.author,
             embed.title,
             embed.description,
@@ -156,7 +156,7 @@ async def set_timestamp(embed, timestamp=False):
             embed.footer,
             embed.url,
             embed.color,
-        )
+        ]
     ):
         raise ValueError("You cannot just use timestamp without any other field.")
     embed.timestamp = disnake.utils.utcnow() if timestamp else None
@@ -171,7 +171,7 @@ async def set_color(embed, color=None):
         except ValueError:
             raise ValueError("Invalid color [color].")
         if not any(
-            (
+            [
                 embed.author,
                 embed.title,
                 embed.description,
@@ -180,7 +180,7 @@ async def set_color(embed, color=None):
                 embed.footer,
                 embed.url,
                 embed.timestamp,
-            )
+            ]
         ):
             raise ValueError("You cannot just use color without any other field.")
         embed.color = color
