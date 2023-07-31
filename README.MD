@@ -13,29 +13,28 @@ This repository contains a Python bot that allows users to create simple custom 
 #### Usage
 1. Run `main.py`
 2. Type `/create_embed` in any channel the bot has access to and set your parameters:
-<br>
 `author_icon`: URL to the author's icon image.
-<br>
+
 `author_name`: The name of the author.
-<br>
+
 `author_hyperlink`: URL to the author's profile or website.
-<br>
+
 `title`: The main title of the embed.
-<br>
+
 `title_hyperlink`: URL to link the title to.
-<br>
+
 `title_description`: Description text for the title.
-<br>
+
 `image_thumbnail`: URL for a thumbnail image.
-<br>
+
 `image_banner`: URL for a banner image.
-<br>
+
 `footer_icon`: URL for the footer icon.
-<br>
+
 `footer_text`: Text for the footer.
-<br>
+
 `timestamp`: A boolean indicating whether to include a timestamp in the embed.
-<br>
+
 `color`: A hexadecimal color code for the embed.
 
 #### Screenshots
