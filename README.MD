@@ -27,6 +27,9 @@ This repository contains a Python bot that allows users to create simple custom 
 `color`: A hexadecimal color code for the embed.
 
 #### Screenshots
+![1](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_using_view.jpg)
+![2](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_preview.jpg)
+![3](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_send.jpg)
 
 #### Contributing
 Free to contribute to this project.
