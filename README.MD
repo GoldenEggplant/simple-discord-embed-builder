@@ -16,27 +16,27 @@ This repository contains a Python bot that allows users to create simple custom 
 
     `author_icon`: URL to the author's icon image.
 
-  `author_name`: The name of the author.
+    `author_name`: The name of the author.
 
-  `author_hyperlink`: URL to the author's profile or website.
+    `author_hyperlink`: URL to the author's profile or website.
 
-  `title`: The main title of the embed.
+    `title`: The main title of the embed.
 
-  `title_hyperlink`: URL to link the title to.
+    `title_hyperlink`: URL to link the title to.
 
-  `title_description`: Description text for the title.
+    `title_description`: Description text for the title.
 
-  `image_thumbnail`: URL for a thumbnail image.
+    `image_thumbnail`: URL for a thumbnail image.
 
-  `image_banner`: URL for a banner image.
+    `image_banner`: URL for a banner image.
 
-  `footer_icon`: URL for the footer icon.
+    `footer_icon`: URL for the footer icon.
 
-  `footer_text`: Text for the footer.
+    `footer_text`: Text for the footer.
 
-  `timestamp`: A boolean indicating whether to include a timestamp in the embed.
+    `timestamp`: A boolean indicating whether to include a timestamp in the embed.
 
-  `color`: A hexadecimal color code for the embed.
+    `color`: A hexadecimal color code for the embed.
 
 #### Screenshots
 ![1](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_using_view.jpg)
