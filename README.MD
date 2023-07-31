@@ -13,20 +13,35 @@ This repository contains a Python bot that allows users to create simple custom 
 #### Usage
 1. Run `main.py`
 2. Type `/create_embed` in any channel the bot has access to and set your parameters:
-`author_icon`: URL to the author's icon image.
-`author_name`: The name of the author.
-`author_hyperlink`: URL to the author's profile or website.
-`title`: The main title of the embed.
-`title_hyperlink`: URL to link the title to.
-`title_description`: Description text for the title.
-`image_thumbnail`: URL for a thumbnail image.
-`image_banner`: URL for a banner image.
-`footer_icon`: URL for the footer icon.
-`footer_text`: Text for the footer.
-`timestamp`: A boolean indicating whether to include a timestamp in the embed.
-`color`: A hexadecimal color code for the embed.
+
+  `author_icon`: URL to the author's icon image.
+
+  `author_name`: The name of the author.
+
+  `author_hyperlink`: URL to the author's profile or website.
+
+  `title`: The main title of the embed.
+
+  `title_hyperlink`: URL to link the title to.
+
+  `title_description`: Description text for the title.
+
+  `image_thumbnail`: URL for a thumbnail image.
+
+  `image_banner`: URL for a banner image.
+
+  `footer_icon`: URL for the footer icon.
+
+  `footer_text`: Text for the footer.
+
+  `timestamp`: A boolean indicating whether to include a timestamp in the embed.
+
+  `color`: A hexadecimal color code for the embed.
 
 #### Screenshots
+![1](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_using_view.jpg)
+![2](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_preview.jpg)
+![3](https://github.com/GoldenEggplant/simple-discord-embed-builder/blob/main/bot/assets/slash_command_create_embed_send.jpg)
 
 #### Contributing
 Free to contribute to this project.
