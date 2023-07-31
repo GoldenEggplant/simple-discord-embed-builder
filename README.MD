@@ -14,7 +14,7 @@ This repository contains a Python bot that allows users to create simple custom 
 1. Run `main.py`
 2. Type `/create_embed` in any channel the bot has access to and set your parameters:
 
-  `author_icon`: URL to the author's icon image.
+    `author_icon`: URL to the author's icon image.
 
   `author_name`: The name of the author.
 
